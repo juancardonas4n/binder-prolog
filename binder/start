@@ -6,4 +6,6 @@ tree /usr/local/share | tee data1.txt
 cd 
 tree -a $HOME/ | tee data2.txt
 
-exec  "$@"
+echo "$PATH" | tee data3.txt
+
+exec "$@"
