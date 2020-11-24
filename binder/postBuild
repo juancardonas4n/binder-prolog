@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Installing IHaskell Kernel
+pip3 install backports.temfile --user
+pip3 install jswipl --user

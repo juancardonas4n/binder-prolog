@@ -8,5 +8,5 @@ jupyter-console==6.1.0
 jupyter-core==4.6.3
 nbconvert==5.6.1
 notebook==6.0.3
-jswipl==1.0.2
-backports.tempfile==1.0
+# jswipl==1.0.2
+# backports.tempfile==1.0
