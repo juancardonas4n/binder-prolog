@@ -1,5 +1,12 @@
 #!/bin/bash
 
 # Installing Swi-Prolog Kernel
-# pip install --user backports.tempfile
-# pip install --user jswipl
+python3 -m pip install --upgrade --user jswipl
+if [ ! -d ~/.local/share/jupyter/kernels ]
+then
+    mkdir --parents ~/.local/share/jupyter/kernels
+fi
+pushd ~/.local/share/jupyter/kernels
+mkdir jswipl && cd jswipl
+wget https://raw.githubusercontent.com/targodan/jupyter-swi-prolog/master/kernel.json
+

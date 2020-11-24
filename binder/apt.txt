@@ -1,2 +1,3 @@
 swi-prolog
 tree
+wget
