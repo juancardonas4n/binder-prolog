@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Installing IHaskell Kernel
-pip3 install backports.tempfile --user
-pip3 install jswipl --user
+# Installing Swi-Prolog Kernel
+pip3 install backports.tempfile
+pip3 install jswipl
