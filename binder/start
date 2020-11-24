@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export PATH=$PATH:$HOME/bin:$HOME/.local/bin
+
+ls -l .local/share/jupyter/kernels > data.txt
+
+exec  "$@"
