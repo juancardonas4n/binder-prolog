@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Installing Swi-Prolog Kernel
-pip install --user backports.tempfile
-pip install --user jswipl
+# pip install --user backports.tempfile
+# pip install --user jswipl
