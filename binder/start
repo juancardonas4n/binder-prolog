@@ -2,7 +2,8 @@
 
 export PATH=$PATH:$HOME/bin:$HOME/.local/bin
 
+tree /usr/local/shared/jupyter/kernels | tee data1.txt
 cd 
-ls -l $HOME/.local/share/jupyter/kernels | tee data.txt
+tree $HOME/.local/share/jupyter/kernels | tee data2.txt
 
 exec  "$@"
